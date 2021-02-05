@@ -127,5 +127,11 @@
   "defaultProject": "dashboard-prime-ng",
   "cli": {
     "analytics": false
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss",
+      "style": "scss"
+    }
   }
 }
